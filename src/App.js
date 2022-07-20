@@ -4,8 +4,11 @@ import SolarSystem from './components/SolarSystem';
 
 class App extends React.Component {
   render() {
-    return (<p><Header />
-    <SolarSystem/></p>
+    return (
+      <p>
+        <Header />
+        <SolarSystem />
+      </p>
     );
   }
 }
